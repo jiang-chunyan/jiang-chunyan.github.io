@@ -76,6 +76,10 @@
 			<a href="/categories" class="menu-item-categories">Category</a>
 		</li>
 	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags">Tag</a>
+		</li>
+	
 		<li class="menu-about">
 			<a href="/about" class="menu-item-about">About</a>
 		</li>
@@ -185,6 +189,10 @@
 			<a href="/categories" class="menu-item-categories">Category</a>
 		</li>
 	
+		<li class="menu-tags">
+			<a href="/tags" class="menu-item-tags">Tag</a>
+		</li>
+	
 		<li class="menu-about">
 			<a href="/about" class="menu-item-about">About</a>
 		</li>
@@ -251,7 +259,7 @@
 
 	
 
-		tags
+		<i class="fa fa-pencil-square-o">Total 0 ge tag</i>
 
 	
 	
@@ -259,22 +267,22 @@
 
 		
 
-			<div class="about">
-				<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p><em>使用github pages服务搭建博客的好处有：</em></p>
-<ol>
-<li>全是静态文件，访问速度快；</li>
-<li>免费方便，不用花一分钱就可以搭建一个自由的个人博客，不需要服务器不需要后台；</li>
-<li>可以随意绑定自己的域名，不仔细看的话根本看不出来你的网站是基于github的；</li>
-<li>数据绝对安全，基于github的版本管理，想恢复到哪个历史版本都行；</li>
-<li>博客内容可以轻松打包、转移、发布到其它平台；</li>
-<li>等等；</li>
-</ol>
-
+			<div class="tags">
+				
 			</div>
 
 		
 	</div>
 
+	
+		<!-- 
+			ajax 查询相应标签or分类的文章 
+			We can use "Content filtering plugin" to instead ajax!
+		-->
+		<div class="layout-TCP-container">
+			<div id="TCP-title"></div>
+			<div id="TCP-content"></div>
+		</div>
 	
 </div>
 
